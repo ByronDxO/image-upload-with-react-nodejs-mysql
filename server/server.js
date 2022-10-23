@@ -7,11 +7,11 @@ const cors = require('cors')
 const app = express()
 
 app.use(myconn(mysql, {
-    host: 'localhost',
+    host: 'tarea201806840.mysql.database.azure.com',
     port: 3306,
-    user: 'root',
-    password: 'abc123',
-    database: 'images'
+    user: 'administrador',
+    password: 'Mitoman9',
+    database: 'tarea201806840'
 }))
 app.use(cors())
 
